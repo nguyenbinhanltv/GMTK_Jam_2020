@@ -1,6 +1,3 @@
-*Welcome to the official repository for the game "Out of Control(s)". <br> Here, you can find all jam and post-jam releases in the [Releases](https://github.com/geegaz/GMTK_Jam_2020/releases) section of the repository, or browse the code.*
-
-
 # A Key(s) Path
 **- By Geegaz -**
 
