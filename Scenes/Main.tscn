@@ -348,13 +348,12 @@ tile_data = PoolIntArray( 131092, 8, 0, 131111, 8, 0, 262124, 8, 0, 196628, 0, 0
 [node name="AnimatedSprite" type="AnimatedSprite" parent="Background"]
 position = Vector2( 80, 144 )
 frames = SubResource( 9 )
-frame = 5
+frame = 1
 playing = true
 
 [node name="AnimatedSprite2" type="AnimatedSprite" parent="Background"]
 position = Vector2( 264, 104 )
 frames = SubResource( 18 )
-frame = 4
 playing = true
 
 [node name="MainMenu" type="Control" parent="."]
@@ -500,12 +499,12 @@ texture_disabled = ExtResource( 14 )
 [node name="CenterContainer" type="CenterContainer" parent="Options/VBoxContainer2"]
 margin_top = 27.0
 margin_right = 320.0
-margin_bottom = 159.0
+margin_bottom = 175.0
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Options/VBoxContainer2/CenterContainer"]
 margin_left = 84.0
 margin_right = 236.0
-margin_bottom = 132.0
+margin_bottom = 148.0
 custom_constants/separation = 16
 
 [node name="MarginContainer" type="MarginContainer" parent="Options/VBoxContainer2/CenterContainer/VBoxContainer"]
@@ -591,7 +590,7 @@ step = 0.01
 [node name="Display" type="VBoxContainer" parent="Options/VBoxContainer2/CenterContainer/VBoxContainer"]
 margin_top = 94.0
 margin_right = 152.0
-margin_bottom = 132.0
+margin_bottom = 148.0
 
 [node name="Label" type="Label" parent="Options/VBoxContainer2/CenterContainer/VBoxContainer/Display"]
 margin_right = 152.0
@@ -604,11 +603,11 @@ align = 1
 [node name="Fullscreen" type="HBoxContainer" parent="Options/VBoxContainer2/CenterContainer/VBoxContainer/Display"]
 margin_top = 16.0
 margin_right = 152.0
-margin_bottom = 38.0
+margin_bottom = 54.0
 
 [node name="FullscreenCheckButton" type="CheckButton" parent="Options/VBoxContainer2/CenterContainer/VBoxContainer/Display/Fullscreen"]
 margin_right = 152.0
-margin_bottom = 22.1655
+margin_bottom = 38.1655
 rect_min_size = Vector2( 152, 0 )
 custom_fonts/font = ExtResource( 5 )
 custom_colors/font_color_disabled = Color( 1, 1, 1, 0.2 )
@@ -620,6 +619,7 @@ text = "Fullscreen"
 flat = true
 
 [node name="Credits" type="Control" parent="."]
+visible = false
 margin_left = 320.0
 margin_right = 640.0
 margin_bottom = 184.0
@@ -692,14 +692,14 @@ __meta__ = {
 }
 
 [node name="CenterContainer" type="CenterContainer" parent="Credits/VBoxContainer/ScrollContainer"]
-margin_right = 304.0
+margin_right = 320.0
 margin_bottom = 248.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
 [node name="VBoxContainer2" type="VBoxContainer" parent="Credits/VBoxContainer/ScrollContainer/CenterContainer"]
-margin_left = 60.0
-margin_right = 244.0
+margin_left = 68.0
+margin_right = 252.0
 margin_bottom = 248.0
 custom_constants/separation = 16
 
@@ -797,7 +797,7 @@ margin_bottom = 248.0
 custom_constants/margin_top = 20
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2( 160, 92 )
+position = Vector2( 480, 92 )
 current = true
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
